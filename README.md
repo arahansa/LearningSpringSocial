@@ -27,7 +27,7 @@ CREATE TABLE `userconnection` (
   `displayName` varchar(255) DEFAULT NULL,
   `profileUrl` varchar(512) DEFAULT NULL,
   `imageUrl` varchar(512) DEFAULT NULL,
-  `accessToken` varchar(255) NOT NULL,
+  `accessToken` varchar(512) NOT NULL,
   `secret` varchar(255) DEFAULT NULL,
   `refreshToken` varchar(255) DEFAULT NULL,
   `expireTime` bigint(20) DEFAULT NULL,
